@@ -1,0 +1,25 @@
+{
+  "name": "qunit-theme-ember",
+  "title": "QUnit Ember Theme",
+  "description": "A theme for the QUnit web UI test runner powered by the Ember styleguide.",
+  "version": "2.0.1",
+  "keywords": [
+    "qunit",
+    "qunit-plugin",
+    "qunit-theme",
+    "ember"
+  ],
+  "author": "Ignace Maes (https://ignacemaes.com/)",
+  "homepage": "https://github.com/IgnaceMaes/qunit-theme-ember",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IgnaceMaes/qunit-theme-ember.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IgnaceMaes/qunit-theme-ember/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "qunit.css"
+  ]
+}
