@@ -21,5 +21,8 @@
   "license": "MIT",
   "files": [
     "qunit.css"
-  ]
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
 }
