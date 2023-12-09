@@ -2,7 +2,7 @@
   "name": "qunit-theme-ember",
   "title": "QUnit Ember Theme",
   "description": "A theme for the QUnit web UI test runner powered by the Ember styleguide.",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "keywords": [
     "qunit",
     "qunit-plugin",
