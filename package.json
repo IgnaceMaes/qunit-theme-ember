@@ -15,6 +15,9 @@
     "type": "git",
     "url": "git://github.com/IgnaceMaes/qunit-theme-ember.git"
   },
+  "scripts": {
+    "release": "changeset publish"
+  },
   "bugs": {
     "url": "https://github.com/IgnaceMaes/qunit-theme-ember/issues"
   },
