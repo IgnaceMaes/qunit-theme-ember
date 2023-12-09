@@ -277,6 +277,7 @@ ol.qunit-assert-list .fail {
   border-radius: 8px;
   padding-top: 40px;
   border-top: 0;
+  outline: 1px solid white;
 }
 
 #ember-testing-container::after {
@@ -292,4 +293,23 @@ ol.qunit-assert-list .fail {
     center left no-repeat;
   background-size: 10%;
   background-position: 8px;
+}
+
+#qunit-tests .test-expected pre,
+#qunit-tests .test-actual pre,
+#qunit-tests .test-diff pre {
+  background: var(--color-gray-100);
+  padding: var(--spacing-2) var(--spacing-2);
+  border-radius: 6px;
+  color: var(--color-gray-900);
+}
+
+#qunit-tests del {
+  color: var(--color-gray-900);
+  background-color: var(--color-success);
+}
+
+#qunit-tests ins {
+  color: var(--color-gray-900);
+  background-color: var(--color-danger);
 }
