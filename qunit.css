@@ -223,7 +223,7 @@ ol.qunit-assert-list .fail {
 }
 
 #qunit-tests .pass {
-  background-color: var(--color-info);
+  background-color: var(--color-success);
 }
 
 #qunit-tests .fail {
