@@ -6,7 +6,23 @@ A theme for the QUnit web UI test runner based on the [Ember styleguide](https:/
 
 ## Installation
 
-TODO
+### 1. Install the package
+
+```sh
+npm install --save-dev qunit-theme-ember
+# or
+yarn add --dev qunit-theme-ember
+# or
+pnpm install --save-dev qunit-theme-ember
+```
+
+### 2. Import the theme in your test suite
+
+```js
+// your-app/tests/test-helper.js
+// ... other imports
+import 'qunit-theme-ember/qunit.css';
+```
 
 ## Contributing
 
