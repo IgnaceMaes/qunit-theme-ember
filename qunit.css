@@ -298,18 +298,18 @@ ol.qunit-assert-list .fail {
 #qunit-tests .test-expected pre,
 #qunit-tests .test-actual pre,
 #qunit-tests .test-diff pre {
-  background: var(--color-gray-800);
+  background: var(--color-gray-100);
   padding: var(--spacing-2) var(--spacing-2);
   border-radius: 6px;
-  color: var(--color-gray-200);
+  color: var(--color-gray-900);
 }
 
 #qunit-tests del {
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   background-color: var(--color-success);
 }
 
 #qunit-tests ins {
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
   background-color: var(--color-danger);
 }
