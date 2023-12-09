@@ -4,6 +4,8 @@ A theme for the QUnit web UI test runner based on the [Ember styleguide](https:/
 
 ![Preview](preview.png)
 
+👉 [View the live demo](https://refined-github-html-preview.kidonng.workers.dev/IgnaceMaes/qunit-theme-ember/raw/main/test/index.html)
+
 ## Installation
 
 ### 1. Install the package
