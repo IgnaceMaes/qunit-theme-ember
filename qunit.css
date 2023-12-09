@@ -139,7 +139,7 @@ body {
 #qunit-testresult {
   background-color: var(--color-gray-100);
   border-bottom: 1px solid var(--color-gray-200);
-  color: var(--color-text-info);
+  color: var(--color-gray-900);
 }
 
 #qunit-tests li {
@@ -147,11 +147,11 @@ body {
 }
 
 #qunit-tests .pass {
-  color: var(--color-text-info);
+  color: var(--color-gray-900);
 }
 
 #qunit-tests .pass .test-name {
-  color: var(--color-gray-900);
+  color: var(--color-gray-700);
 }
 
 #qunit-tests li {
