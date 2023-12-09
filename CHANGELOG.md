@@ -1,5 +1,11 @@
 # qunit-theme-ember
 
+## 0.2.0
+
+### Minor Changes
+
+- [#3](https://github.com/IgnaceMaes/qunit-theme-ember/pull/3) [`1603c6b`](https://github.com/IgnaceMaes/qunit-theme-ember/commit/1603c6bb68e149bc8026d9a846df2933bd6c4262) Thanks [@IgnaceMaes](https://github.com/IgnaceMaes)! - feat: introduce code block styling
+
 ## 0.1.1
 
 ### Patch Changes
