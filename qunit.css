@@ -301,7 +301,7 @@ ol.qunit-assert-list .fail {
   background: var(--color-gray-800);
   padding: var(--spacing-2) var(--spacing-2);
   border-radius: 6px;
-  color: #ffffffee;
+  color: var(--color-gray-200);
 }
 
 #qunit-tests del {
