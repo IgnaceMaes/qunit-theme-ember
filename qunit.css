@@ -280,14 +280,16 @@ ol.qunit-assert-list .fail {
 }
 
 #ember-testing-container::after {
-  content: '';
+  content: "";
   z-index: 100;
   height: 40px;
   left: 0;
   right: 0;
   top: 0;
   position: absolute;
-  background: var(--color-gray-800) url('data:image/svg+xml,<svg fill="%2342474f" viewBox="4.5 10.5 15 3" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path clip-rule="evenodd" fill-rule="evenodd" d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path></svg>') center left no-repeat;
+  background: var(--color-gray-800)
+    url('data:image/svg+xml,<svg fill="%2342474f" viewBox="4.5 10.5 15 3" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path clip-rule="evenodd" fill-rule="evenodd" d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path></svg>')
+    center left no-repeat;
   background-size: 10%;
   background-position: 8px;
 }
