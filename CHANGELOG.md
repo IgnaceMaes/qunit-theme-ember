@@ -1,5 +1,13 @@
 # qunit-theme-ember
 
+## 1.0.0
+
+### Major Changes
+
+- [`029f1f9`](https://github.com/IgnaceMaes/qunit-theme-ember/commit/029f1f94a4df3105355a251bf9b58a5a0bcb4b23) Thanks [@IgnaceMaes](https://github.com/IgnaceMaes)! - Declare v1 release to indicate stability.
+
+  No (breaking) changes have been made since v0.2.0.
+
 ## 0.2.0
 
 ### Minor Changes
