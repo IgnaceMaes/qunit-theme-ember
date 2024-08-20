@@ -87,7 +87,8 @@ body {
   color: var(--color-gray-900);
 }
 
-#qunit-userAgent {
+/* QUnit 2 only */
+#qunit > #qunit-userAgent {
   background-color: var(--color-gray-100);
   color: var(--color-gray-900);
   text-shadow: none;
@@ -142,16 +143,8 @@ body {
   color: var(--color-gray-900);
 }
 
-#qunit-tests li {
+#qunit-tests > li {
   background-color: var(--color-gray-100);
-}
-
-#qunit-tests .pass {
-  color: var(--color-gray-900);
-}
-
-#qunit-tests .pass .test-name {
-  color: var(--color-gray-700);
 }
 
 #qunit-tests li {
@@ -160,33 +153,42 @@ body {
   border-bottom: 0;
 }
 
-#qunit-tests li li.pass {
+#qunit-tests > li.pass {
+  color: var(--color-gray-900);
+  background-color: var(--color-success);
+}
+
+#qunit-tests > li.pass .test-name {
+  color: var(--color-gray-700);
+}
+
+#qunit-tests > li.fail {
+  background-color: var(--color-danger);
+}
+
+#qunit-tests > li.fail .test-expected {
+  color: var(--color-green);
+}
+
+#qunit-tests > li.fail .test-actual {
+  color: var(--color-red);
+}
+
+.qunit-assert-list {
+  margin: 10px 0;
+}
+
+#qunit-tests .qunit-assert-list .pass {
   color: var(--color-text-success);
   border-left: 10px solid var(--color-green);
 }
 
-#qunit-tests li p.qunit-source {
-  color: var(--color-gray-900);
-}
-
-ol.qunit-assert-list {
-  margin: 10px 0;
-}
-
-ol.qunit-assert-list .fail {
-  border-left: 0;
-}
-
-#qunit-tests li li.fail {
+#qunit-tests .qunit-assert-list .fail {
   border-left-color: var(--color-red);
 }
 
-#qunit-tests .fail .test-expected {
-  color: var(--color-green);
-}
-
-#qunit-tests .fail .test-actual {
-  color: var(--color-red);
+.qunit-source {
+  color: var(--color-gray-900);
 }
 
 #qunit-testrunner-toolbar button,
@@ -222,14 +224,6 @@ ol.qunit-assert-list .fail {
   color: var(--color-white);
 }
 
-#qunit-tests .pass {
-  background-color: var(--color-success);
-}
-
-#qunit-tests .fail {
-  background-color: var(--color-danger);
-}
-
 #qunit-testrunner-toolbar input[type="text"],
 #qunit-testrunner-toolbar #qunit-modulefilter-search {
   border: 1px solid var(--color-gray-300);
@@ -250,7 +244,8 @@ ol.qunit-assert-list .fail {
   border-color: var(--color-gray-300);
 }
 
-#qunit-modulefilter-search-container:after {
+/* QUnit 2 only */
+label[for="qunit-modulefilter-search"] + #qunit-modulefilter-search-container:after {
   content: "";
   width: var(--spacing-2);
   height: var(--spacing-2);
